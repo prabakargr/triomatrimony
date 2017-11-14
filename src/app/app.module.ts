@@ -4,19 +4,15 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import {NavbarComponent} from './component.navbar'
 import { HeaderComponent } from './header';
-import {Section1Component} from './section1';
-import {Section2Component} from './section2';
-import {TestimonialsComponent} from './component.testimonials';
 import {FooterComponent} from './component.footer';
 
 @NgModule({
   declarations: [
     AppComponent,
+    NavbarComponent,
     HeaderComponent,
-    Section1Component,
-    Section2Component,
-    TestimonialsComponent,
     FooterComponent
   ],
   imports: [
